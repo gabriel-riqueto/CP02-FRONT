@@ -50,43 +50,6 @@ main{
 }
 
 
-@media (max-width: 480px) {
-    main{
-        display: flex;
-        flex-direction: column;
-    }
-    .login{
-        margin-top: 10px;
-    }
-}
-
-
-@media (min-width: 481px){
-
-    .login{
-        width: 30%;
-        padding-left: 40px;
-        margin-top:100px ;
-        height: 200px;
-        position: relative;
-    }
-    
-    .login form div{
-        margin-left: 70px;
-        margin-top:8px ;
-    }
-    
-    .img{
-        display: flex;
-        margin-top:10px ;
-        margin-left: 70px;
-        height: 300px;
-        width: 30%;
-        justify-content: center;
-        padding-top: 20px;
-    }
-}
-
 
 .img{
     display: flex;
@@ -133,6 +96,40 @@ button{
 }
 
 
-#senha{
-    padding-top: 10px;
+
+@media (max-width: 480px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .login{
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width: 481px){
+
+    .login{
+        width: 30%;
+        padding-left: 40px;
+        margin-top:100px ;
+        height: 200px;
+        position: relative;
+    }
+    
+    .login form div{
+        margin-left: 70px;
+        margin-top:8px ;
+    }
+    
+    .img{
+        display: flex;
+        margin-top:10px ;
+        margin-left: 70px;
+        height: 300px;
+        width: 30%;
+        justify-content: center;
+        padding-top: 20px;
+    }
 }
