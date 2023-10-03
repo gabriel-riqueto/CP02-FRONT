@@ -4,53 +4,45 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .container{
     width: 100%;
     border: black solid 1px;
 }
 
-
-.login{
-    justify-content: center;
+nav{
     display: flex;
-    flex-wrap: wrap;
+    justify-content:center;
+    background-color: rgb(201, 45, 45);
+    height: 70px;
+    align-items: center;
+    border-bottom: rgb(117, 51, 40) solid 2px;
 }
 
+nav ul{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    padding: 80px;
 
-button{
-    color: rgb(233, 49, 49);
-    border: rgb(233, 49, 49) 1px solid;
-    padding: 6px;
-    background-color: white;
 }
 
-
-.login form{
-    display:flex;
-    flex-direction: column;
+nav ul li{
+    display: flex;
+    
 }
 
-
-.login form div{
-    margin-left: 70px;
-    margin-top:8px ;
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: larger;
+    justify-content: space-around;
 }
-
-
-.login form input{
-    border: 2px solid rgb(233, 49, 49);
-    padding: 6px;
-    padding-top: 5px;
-    margin-bottom: 6px;
-}
-
 
 main{
     display: flex;
     justify-content: center;
 }
-
 
 @media (max-width: 480px) {
     main{
@@ -61,7 +53,6 @@ main{
         margin-top: 10px;
     }
 }
-
 
 @media (min-width: 481px){
 
@@ -89,7 +80,6 @@ main{
     }
 }
 
-
 .figura{
     display: flex;
     margin-top:10px ;
@@ -99,36 +89,37 @@ main{
     
 }
 
-
-.nav{
+.login{
+    justify-content: center;
     display: flex;
-    justify-content:center;
-    background-color: rgb(233, 49, 49);
-    height: 70px;
-    align-items: center;
-    border-bottom: #6e2f24 solid 2px;
+    flex-wrap: wrap;
+}
+
+button{
+    color: rgb(201, 45, 45);
+    border: rgb(201, 45, 45) 1px solid;
+    padding: 6px;
+    background-color: white;
+}
+
+.login form div{
+    margin-left: 70px;
+    margin-top:8px ;
+}
+
+.login form{
+    display:flex;
+    flex-direction: column;
+}
+
+.login form input{
+    border: 2px solid rgb(201, 45, 45);
+    padding: 6px;
+    padding-top: 5px;
+    margin-bottom: 6px;
 }
 
 
-nav ul{
-    display: flex;
-    width: 100%;
-    text-align: center;
-    justify-content: space-between;
-    padding: 80px;
-
-}
-
-
-nav ul li{
-    display: flex;
-    
-}
-
-
-nav ul li a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: larger;
-    justify-content: space-around;
+#senha{
+    padding-top: 10px;
 }
